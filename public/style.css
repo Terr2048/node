@@ -1,0 +1,50 @@
+p {
+	font-family: arial,sans-serif;
+	font-size: 16px;
+}
+.center {
+	width: 100%; 
+	height: 100%; 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	display: flex; 
+	align-items: center; 
+	align-content: center; 
+	justify-content: center; 
+	overflow: auto; 
+	text-align: center;
+}
+
+.centerElement {
+	padding: 30px;
+	background: #ddd;
+	border-radius: 30px;
+}
+
+.text {
+	margin: 0px;
+}
+
+.text-input {
+	display: block;
+	padding: 5px;
+	border: 4px solid #aaa;
+	border-radius: 5px;
+	color: #333;
+	transition: all 0.3s ease-out;
+}
+ 
+.text-input:focus {
+	outline: none;
+	border-radius: 8px;
+	border-color: #aaf;
+}
+
+.button {
+	display: inline-block;
+	padding: 8px 15px;
+	background: #ccf;
+	border: 1px solid rgba(0,0,0,0.15);
+	border-radius: 4px;
+}
